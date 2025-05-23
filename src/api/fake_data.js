@@ -1,9 +1,7 @@
 export const FAKE_POPULARS = [{
-    
-
 backdrop_path :"/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
 first_air_date: "2021-09-17",
-genre_ids: (3) [10759, 9648, 18],
+genre_ids: (3)[10759, 9648, 18],
 id: 93405,
 name: "Squid Game",
 origin_country: ['KR'],
