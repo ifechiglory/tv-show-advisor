@@ -1,16 +1,18 @@
-export const FAKE_POPULARS = [{
-backdrop_path :"/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
-first_air_date: "2021-09-17",
-genre_ids: (3)[10759, 9648, 18],
-id: 93405,
-name: "Squid Game",
-origin_country: ['KR'],
-original_language: "ko",
-original_name: "오징어 게임",
-overview: "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
-popularity: 8611.964,
-poster_path: "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-vote_average: 7.838,
-vote_count: 14471,
-},
+export const FAKE_POPULARS = [
+  {
+    backdrop_path: "/5vUux2vNUTqwCzb7tVcH18XnsF.jpg",
+    first_air_date: "2022-09-21",
+    genre_ids: [18, 80],
+    id: 113988,
+    name: "Dahmer – Monster: The Jeffrey Dahmer Story",
+    origin_country: ["US"],
+    original_language: "en",
+    original_name: "Dahmer – Monster: The Jeffrey Dahmer Story",
+    overview:
+      "Across more than a decade, 17 teen boys and young men were murdered by convicted killer Jeffrey Dahmer. How did he evade arrest for so long?",
+    popularity: 6817.15,
+    poster_path: "/f2PVrphK0u81ES256lw3oAZuF3x.jpg",
+    vote_average: 5.3,
+    vote_count: 591,
+  },
 ];
