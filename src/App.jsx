@@ -41,9 +41,11 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className={s.tv_show_detail}>{currentTVShow && <TVShowDetail tvShow={currentTVShow}/>}</div>
-      <div className={s.recommended_tv_shows}>
-        <TVShowListItem tvShow={currentTVShow} />
+      <div className={s.tv_show_detail}>
+        {currentTVShow && <TVShowDetail tvShow={currentTVShow} />}
+      </div>
+      <div className={s.recommended_shows}>
+        {currentTVShow && <TVShowListItem tvShow={currentTVShow} />}
       </div>
     </div>
   );
